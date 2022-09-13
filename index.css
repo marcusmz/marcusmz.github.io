@@ -132,6 +132,7 @@ h3 {
     line-height: 1;
     font-size: var(--font-size-huge);
     font-weight: 400;
+    color: white;
 }
 
 @media(max-width: 900px) {
@@ -175,6 +176,18 @@ h3 {
 
 p {
     margin: var(--gutter-small-1) 0;
+}
+
+.header__text {
+    color: white;
+}
+
+.row {
+    color: white;
+}
+
+.nav__items {
+    color: black;
 }
 
 @media(max-width: 900px) {
@@ -405,7 +418,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+        url('./images/Backgroun.png');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -469,6 +482,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__text {
     flex: 0 0 30%;
+    color: white;
 }
 
 .work__list {

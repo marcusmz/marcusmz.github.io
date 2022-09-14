@@ -577,6 +577,12 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+.about__photo {
+    border-radius: 25%;
+    width: 600px;
+    height: 600px;
+}
+
 /* --------------------------------------- */
 /* ----- Contact ----- */
 /* --------------------------------------- */
